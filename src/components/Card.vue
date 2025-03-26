@@ -1,7 +1,7 @@
 <template>
   <div
     class="group relative cursor-pointer overflow-hidden hover:border-2 hover:border-red-500 mb-10 bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-      <span class="absolute top-10 left-38 z-0 h-20 w-20 rounded-full bg-gray-800 transition-all duration-300 group-hover:scale-[10]"></span>
+      <span class="absolute top-10 left-38 z-0 h-20 w-20 rounded-full bg-black transition-all duration-300 group-hover:scale-[10]"></span>
       <div class="relative z-10 mx-auto max-w-md">
          <div class="flex flex-col items-center  justify-center">
             <span class="grid h-20 w-20 place-items-center rounded-full bg-red-500 transition-all duration-300 group-hover:bg-red-500 ">

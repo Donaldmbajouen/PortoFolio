@@ -1,8 +1,8 @@
 
 <template>
-    <header class="lg:px-16 px-4 flex flex-wrap items-center py-4 shadow-md bg-gray-900 shadow-gray-500 border-b-1 border-gray-800">
+    <header class="lg:px-16 px-4 flex flex-wrap items-center py-4 shadow-md bg-[#101838] shadow-gray-800 border-b-1 border-gray-800">
         <div class="flex-1 flex justify-between items-center">
-            <a href="#" class="text-4xl bg-gradient-to-r from-orange-500 to-red-500 text-transparent bg-clip-text font-bold hover:from-red-500 hover:to-orange-500 transition-all duration-300">DONALD</a>
+            <a href="#" class="text-4xl bg-gradient-to-r from-orange-500 to-red-500 text-transparent bg-clip-text font-bold hover:from-red-500 hover:to-orange-500 transition-all duration-300">PORTOFOLIO</a>
         </div>
 
         <label for="menu-toggle" class="pointer-cursor md:hidden block">
