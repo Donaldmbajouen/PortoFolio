@@ -2,8 +2,8 @@
   <div class="bg-[#101838]" id="top">
     <Nav/>
     <Section1/>
-    <h1 class="text-white text-3xl md:text-3xl lg:text-5xl px-3 md:px-5 mb-5 md:mb-10 font-bold text-center md:text-left">Mes Services</h1>
-    <div class="relative grid grid-cols-1 sm:grid-cols-2 mx-25 lg:grid-cols-3 gap-2 md:gap-4 mb-10 md:mb-20 sm:justify-center overflow-hidden bg-[#101838] py-6 md:py-8 lg:py-12 px-2 md:px-4">
+    <h1 class="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl px-2 sm:px-3 md:px-4 lg:px-5 mb-3 sm:mb-4 md:mb-6 lg:mb-8 xl:mb-10 font-bold text-center md:text-left">Mes Services</h1>
+    <div class="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 md:gap-4 lg:gap-5 mb-6 sm:mb-8 md:mb-12 lg:mb-16 xl:mb-20 sm:justify-center overflow-hidden bg-[#101838] py-4 sm:py-6 md:py-8 lg:py-10 xl:py-12 px-2 sm:px-3 md:px-4 lg:px-5">
       <Card/>
       <Card/>
       <Card/>
