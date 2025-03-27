@@ -1,26 +1,35 @@
 <template>
     <div class="bg-purple-500 animate-pulse p-8 w-[300px] h-[300px] blur-[250px] absolute rounded-full"></div>
     <div class="bg-purple-500 animate-pulse p-8 w-[300px] h-[300px] blur-[250px] absolute rounded-full"></div>
-
-    <!-- <div class="bg-gradient-to-r from-purple-600 to-red-600 animate-pulse p-8 w-[300px] h-[300px] blur-[150px] absolute rounded-full"></div> -->
-    <!-- <div class="bg-red-600 p-5 w-20 h-20 rotate-45 blur absolute top-150 left-180"></div>
-    <div class="bg-red-600 p-5 w-20 h-20 blur absolute top-150 left-180"></div> -->
-    <div class="flex mb-20 bg-[#101838] p-15">
-      <div class="w-5xl">
-        <div class="p-20">
-          <h1 class="text-white text-4xl font-semibold">Hello, Je Suis <span class="text-5xl bg-gradient-to-r from-orange-500 to-red-500 text-transparent bg-clip-text font-bold hover:from-red-500 hover:to-orange-500 transition-all duration-300">DONALD NJEMI</span></h1>
-          <p class="w-2xl mt-5 text-xl py-3 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et itaque ea similique quae id obcaecati iusto fuga, officiis optio blanditiis ipsa necessitatibus architecto laboriosam nesciunt. Sunt molestias dolor ad placeat?</p>
-          <div class="mt-5">
-            <button class="inline-block px-7 py-3 overflow-hidden text-xl font-semibold transition-transform rounded-full group text text-white bg-transparent border-red-500 border-2 hover:bg-red-600 hover:text-white">
-              <span ><i class="fas fa-download text-white"></i>  Telecharger mon cv</span>
+    <div class="flex flex-col lg:flex-row mb-20 bg-[#101838] p-4 lg:p-15">
+      <div class="w-full lg:w-1/2">
+        <div class="p-4 lg:p-20 md:p-10">
+          <h1 class="text-white text-2xl lg:text-4xl md:text-3xl font-semibold text-center lg:text-left">
+            Hello, Je Suis 
+            <span class="text-3xl lg:text-5xl md:text-4xl bg-gradient-to-r from-orange-500 to-red-500 text-transparent bg-clip-text font-bold hover:from-red-500 hover:to-orange-500 transition-all duration-300">
+              DONALD NJEMI
+            </span>
+          </h1>
+          <p class="w-full mt-5 text-sm lg:text-xl md:text-lg py-3 text-white text-center lg:text-left">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et itaque ea similique quae id obcaecati iusto fuga, officiis optio blanditiis ipsa necessitatibus architecto laboriosam nesciunt. Sunt molestias dolor ad placeat?
+          </p>
+          <div class="mt-5 text-center lg:text-left">
+            <button class="px-4 lg:px-7 md:px-5 py-2 lg:py-3 pointer-cursor text-sm lg:text-xl md:text-lg font-semibold transition-transform rounded-full text-white bg-transparent border-red-500 border-2 hover:bg-red-600 hover:text-white">
+              <span><i class="fas fa-download text-white"></i> Telecharger mon cv</span>
             </button>
           </div>
         </div>
       </div>
-      <div class="">
-        <div class="w-full relative">
-          <img class="shadow-2xl rounded-full shadow-red-500 animate-[spin_12s_linear_infinite] absolute left-0 right-0  lg:max-w-[65%] max-w-[60%] mx-auto" src="../images/img1.jpg" />
-          <img class="relative rounded-full z-10 lg:max-w-[70%] max-w-[60%] mx-auto outline outline-[.3rem] outline-offset-[.1rem] outline-red-500" src="../images/img1.jpg" />
+      <div class="w-full lg:w-1/2 mt-10 lg:mt-0">
+        <div class="relative w-full flex justify-center items-center">
+          <img 
+            class="shadow-2xl rounded-full shadow-2xl shadow-red-500 animate-[spin_12s_linear_infinite] absolute w-[55%] lg:w-[65%]" 
+            src="../images/img1.jpg" 
+          />
+          <img 
+            class="relative rounded-full z-10 w-[60%] lg:w-[70%] outline outline-[.3rem] outline-offset-[.1rem] outline-red-500" 
+            src="../images/img1.jpg" 
+          />
         </div>
       </div>
     </div>

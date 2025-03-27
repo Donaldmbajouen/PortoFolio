@@ -1,35 +1,38 @@
 <template>
-  <div class="bg-[#101838]">
+  <div class="bg-[#101838]" id="top">
     <Nav/>
     <Section1/>
-    <h1 class="text-white text-5xl px-5 mb-10 font-bold">Mes Services</h1>
-    <div class="relative grid grid-cols-3 mb-20 justify-center overflow-hidden bg-[#101838] py-12 sm:py-12">
+    <h1 class="text-white text-3xl md:text-3xl lg:text-5xl px-3 md:px-5 mb-5 md:mb-10 font-bold text-center md:text-left">Mes Services</h1>
+    <div class="relative grid grid-cols-1 sm:grid-cols-2 mx-25 lg:grid-cols-3 gap-2 md:gap-4 mb-10 md:mb-20 sm:justify-center overflow-hidden bg-[#101838] py-6 md:py-8 lg:py-12 px-2 md:px-4">
       <Card/>
       <Card/>
       <Card/>
     </div>
     <About class="mb-20"/>
-    <div class="py-5 flex">
-      <div class="w-[50%] px-5 ">
-        <h1 class="text-white text-5xl font-bold mb-10">Mes Competences</h1>
+    <div class="py-5 flex flex-col md:flex-row">
+      <div class="w-full md:w-[50%] px-2 sm:px-3 md:px-5">
+        <h1 class="text-white text-3xl sm:text-4xl md:text-5xl font-bold mb-5 sm:mb-8 md:mb-10 text-center md:text-left">Mes Competences</h1>
         <Skill/>
         <Skill/>
         <Skill/>
         <Skill/>
         <Skill/>
       </div>
-      <div class="w-[50%] px-5">
-        <h1 class="text-white text-5xl font-bold mb-10 text-center">Experiences</h1>
+      <div class="w-full md:w-[50%] px-2 sm:px-3 md:px-5">
+        <h1 class="text-white text-3xl sm:text-4xl md:text-5xl font-bold mb-5 sm:mb-8 md:mb-10 text-center md:text-left">Experiences</h1>
         <Experience/>
         <Experience/>
       </div>
     </div>
-    <div class="p-5 mt-10">
+    <div class="p-2 sm:p-3 md:p-5 mt-5 sm:mt-8 md:mt-10">
       <Projet/>
     </div>
     <Contact/>
 </div>
 <Footer/>
+<a class="fixed bottom-5 right-5 bg-red-500 text-white p-3 rounded-full hover:bg-red-700" href="#top">
+  <i class="fas fa-arrow-up"></i>
+</a>
 </template>
 
 
